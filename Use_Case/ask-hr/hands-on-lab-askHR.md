@@ -12,7 +12,6 @@
     - [Agente FAQ - RH](#agente-faq---rh)
     - [Agente Operações - RH](#agente-operações---rh)
     - [Agente orquestrador - RH](#agente-orquestrador---rh)
-      - [Teste e faça o Deploydo Agente Orquestrador](#teste-e-faça-o-deploydo-agente-orquestrador)
   - [Referências:](#referências)
     - [Documentações adicionais:](#documentações-adicionais)
 
@@ -173,11 +172,15 @@ Você pode testar algumas das perguntas como o exemplo abaixo:
 
 Depois de validar as respostas, clique em **Deploy** no canto superior direito para fazer deploy de seu agente:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_15_v2.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/20.png)
 
 - Clique em `Deploy` novamente
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/21.png)
+
 Aguarde alguns instantes até que o deploy de seu agente fique pronto.
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/22.png)
 
 <b>Parabéns. Você criou o seu primeiro agente utilizando o Watsonx Orchestrate =) </b>
 
@@ -189,11 +192,15 @@ Retorne para a página de agentes, navegando através do topo da tela (onde fica
 
 ` Agent chat \ Manage agents`
 
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/22.png)
+
 Clique exatamente em `Manage agents`
+
 
 1. Clique em **Create agent +**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/24.png)
 
 2. Selecione `Create from scratch`
 
@@ -205,41 +212,51 @@ Nome: `Agente operações - RH`
 
 Descrição: `Agente responsável por ajudar os usuários a verificar os dados do perfil, recuperar o saldo de folgas mais recente, atualizar cargo ou endereço e solicitar folgas.`
 
+
 Clique em **Create**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step4.png)
-
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/25.png)
 
 - Ao lado do nome de seu agente, clique em `Model` selecione o `llama` do tipo `vision`
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/26.png)
+
 - Após isso, selecione `ReAct` na seção Agent style.
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_5_v2.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/27.png)
 
 - Role para baixo até a seção **Toolset**. Clique em **Add tool +**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_9_v3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/28.png)
 
 - Selecione **Import**
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step13.png)
-
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/29.png)
 
 - Em seguida, **Import from file**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_11_v3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/30.png)
 
-- Arraste e solte ou clique para carregar o arquivo [rh_open_api.json](./Documentos/ask_hr_tool.json), então clique em **Next**:
+- Arraste e solte ou clique para carregar o arquivo [rh_open_api.json](./Documentos/ask_hr_tool.json)
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_12_v3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/31.png)
 
-- Selecione apenas as operações `Get Time Off Balance`, `Request Time Off`. `Update Title` e `Update Address`
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/32.png)
+
+Em seguida clique em `Next`
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/33.png)
+
+
+- Selecione apenas as operações `Get user profile`, `Get Time Off Balance`, `Request Time Off`. `Update Title` e `Update Address`
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/34.png)
 
 - Clique em **Done**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_13_v3.png)
-
 Aguarde até que suas Tools fiquem disponíveis para o uso
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/35.png)
 
 - Role para baixo até a seção **Behavior**. Insira as instruções abaixo no campo **Instructions**:
 
@@ -269,6 +286,14 @@ Pergunte o ID do colaborador e o novo endereço do colaborador.
 Use a Tool **Update Address** para realizar a atualização.
 ```
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/36.png)
+
+Navegue até a sessão `Channels` e em seguida desabilite a opção `Show agent`
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/37.png)
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/39.png)
+
 Agora, Teste seu agente no chat de pré visualização à direita, fazendo as seguintes perguntas e validando as respostas. 
 
 ```
@@ -276,16 +301,21 @@ Agora, Teste seu agente no chat de pré visualização à direita, fazendo as se
 - Quantos dias de férias tenho disponível?
 - Preciso atualizar meu endereço
 ```
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/40.png)
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/41.png)
 
 > IMPORTANTE: Quando o agente perguntar seu nome você deve utilizar qualquer um disponível em na planilha de usuários, utilize o link enviado pelo seu instrutor (um link do Box, enviado por e-mail)
 
-Depois de validar as respostas, clique em **Deploy** no canto superior direito para fazer deploy de seu agente:
+Depois de validar as respostas, clique em **Deploy** no canto superior direito para fazer deploy de seu agente.
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_15_v2.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/38.png)
 
-- Clique no menu de hambúrguer no canto superior esquerdo e depois clique em **Chat**:
+Clique em `Deploy` novamente
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_16_v2.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/42.png)
+
+Aguarde alguns instantes até o Deploy de seu agente ficar pronto...
 
 Agora que concluímos mais uma criação de um agente, vamos para o agente final?
 
@@ -306,9 +336,11 @@ Retorne para a página de agentes, navegando através do topo da tela (onde fica
 
 Clique exatamente em `Manage agents`
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/44.png)
+
 1. Clique em **Create agent +**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/45.png)
 
 2. Selecione `Create from scratch`
 
@@ -320,37 +352,39 @@ Nome: `Agente orquestrador - RH`
 
 Descrição: `Agente responsável por receber uma dúvida do usuário e o direcionar para o agente correto para auxiliar o funcionário da empresa.`
 
-Clique em **Create**:
+Clique em **Create**
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step4.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/46.png)
 
 - Ao lado do nome de seu agente, clique em `Model` selecione o `llama` do tipo `vision`
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/47.png)
+
 - Após isso, selecione `ReAct` na seção Agent style.
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_5_v2.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/48.png)
 
 - Navegue até a sessão `Agents`
   
-
-[#TODO INSERIR IMAGEM]
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/49.png)
 
 - Clique **Add from local instance**
 
-[#TODO INSERIR IMAGEM]
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/50.png)
 
 - Selecione **Agente FAQ - RH** e **Agente Operações - RH** 
 
-[#TODO INSERIR IMAGEM]
-
 - Clique em `Add to Agent`
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/51.png)
 
 <b>Aguarde até os agentes adicionados aparecerem na página. Isso significa que eles estão prontos para o uso.</b>
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/52.png)
+
 - Navegue até a sessão **Behavior** adicione o seguinte em **Instructions**:
 
-
-[#TODO INSERIR IMAGEM]
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/53.png)
 
 ```
 Você é um Agente de atendimento de uma empresa chamada TechCorp Inc., e o primeiro ponto de contato para todos os funcionários. Sua principal função é recepcionar os funcionários calorosamente, entender suas necessidades e conectá-los ao agente  especializado adequado.
@@ -393,43 +427,68 @@ Você é um Agente de atendimento de uma empresa chamada TechCorp Inc., e o prim
 
 ```
 
-#### Teste e faça o Deploydo Agente Orquestrador 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/54.png)
 
-[#TODO INSERIR IMAGEM]
+<b>Teste e faça o Deploydo Agente Orquestrador</b>
 
+Navegue até a sessão `Channels`
 
 - Mantenha a opção `Show agent` habilitada
 
-[#TODO INSERIR IMAGEM]
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/55.png)
 
 - Finalmente, clique em **Deploy** no canto superior direito da página, utilizando o botão azul.
 
-[#TODO INSERIR IMAGEM]
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/56.png)
 
 - Na página de **Deploy Agent**, clique em **Deploy**
 
-[#TODO INSERIR IMAGEM]
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/57.png)
 
 Navegue até a página inicial do Watsonx Orchestrate, clicando na palavra `Watson Orchestrate` no topo da página na barra de cor preta.
 
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/58.png)
+
 Em seguida, selecione o agente recém criado 
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/59.png)
 
-[#TODO INSERIR IMAGEM]
+Vamos testar nosso agente orquestrador?
 
-Comece com uma pergunta, por exemplo: `desejo atualizar meu endereço`
+Comece o chamando com uma mensagemd o tipo `oi`, `olá`, `bom dia`, `boa tarde`
 
-Observe a resposta
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/60.png)
 
-Faça outra pergunta, seguindo os exemplos a seguir:
+Faça um pedido do tipo `quero ver seu saldo de férias`
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/61.png)
+
+O Agente nesse momento irá realizar o direcionamento para o agente que atenda melhor suas necessidades, como
+a imagem abaixo:
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/62.png)
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/63.png)
+
+Faça outra pergunta, seguindo a imagem abaixo:
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/64.png)
+
+<b>Observe que dessa vez o agente não solicitou nenhum id pois o seu id já estava salvo em memória.
+
+Você pode utilizar outros exemplos para se comunicar com seu agente como os exemplos a seguir:
 
 ```
 - Por favor consulte quantos dias de férias eu tenho
 - Poderia me dizer mais sobre meus benefícios?
 ```
+Parabéns pelo excelente trabalho e dedicação! 💜
 
+Você criou três agentes, sendo que um deles atua como agente orquestrador, responsável por direcionar o usuário de forma inteligente para os outros dois agentes, garantindo que cada interação siga o fluxo correto.
+Essa abordagem demonstra não apenas domínio técnico, mas também atenção às boas práticas de design de agentes, como modularidade, reutilização e clareza na jornada do usuário.
+
+Seu progresso mostra como o uso estratégico de agentes orquestradores pode trazer mais eficiência e escalabilidade às soluções construídas com <b>watsonx Orchestrate.</b>
 
 ## Referências:
 
