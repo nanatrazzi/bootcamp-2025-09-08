@@ -60,7 +60,7 @@ Nome: Agente de FAQ - RH
 
 Descrição:
 ```
-Agente responsável por lidar com as dúvidas dos funcionários sobre RH. Você fornece respostas curtas e concisas, com no máximo 200 palavras. 
+Agente responsável por lidar com as dúvidas dos funcionários sobre RH. Você fornece respostas curtas e concisas, com no máximo 500 palavras. 
 ```  
 Clique em **Create**:
 
@@ -87,7 +87,7 @@ Clique em **Create**:
 - Copie a seguinte descrição na seção Descrição e salve sua escolha.
 
 <code>
-Agente responsável por lidar com as dúvidas dos funcionários sobre assuntos relacionadoa a RH(Recursos humanos), utilizando sua fonte de conhecimento para responder a perguntas gerais sobre os benefícios da empresa.
+Este documento foi criado para ajudar você a responder dúvidas comuns sobre o pacote de benefícios oferecido pela empresa aos colaboradores. Use este documento como uma fonte de referência e conhecimento. Ele foi estruturado para facilitar o entendimento e garantir que todos os colaboradores tenham acesso às informações de forma clara e objetiva.
 </code> <br> <br>
 
 - Role para baixo até a seção **Behavior**. Insira as instruções abaixo no campo **Instructions**:
@@ -229,7 +229,7 @@ Agora, Teste seu agente no chat de pré visualização à direita, fazendo as se
 - Preciso atualizar meu endereço
 ```
 
-> IMPORTANTE: Quando o agente perguntar seu nome você deve utilizar qualquer um disponível em na planilha de usuários [users_data.xlsx](../Documentos/dados_colaboradores.xlsx)
+> IMPORTANTE: Quando o agente perguntar seu nome você deve utilizar qualquer um disponível em na planilha de usuários, utilize o link enviado pelo seu instrutor (um link do Box, enviado por e-mail)
 
 Depois de validar as respostas, clique em **Deploy** no canto superior direito para fazer deploy de seu agente:
 
@@ -270,7 +270,7 @@ E então, escolha um nome para seu agente e uma boa descrição.
 
 Nome: `Agente orquestrador - RH`
 
-Descrição: `Agente responsável por receber uma dúvida do usuário e o direcionar para o agente correto para auxiliar o funcionário da empresa. `
+Descrição: `Agente responsável por receber uma dúvida do usuário e o direcionar para o agente correto para auxiliar o funcionário da empresa.`
 
 Clique em **Create**:
 
