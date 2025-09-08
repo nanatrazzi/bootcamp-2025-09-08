@@ -64,31 +64,54 @@ Agente responsável por lidar com as dúvidas dos funcionários sobre RH. Você 
 ```  
 Clique em **Create**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step4.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/01.png)
 
 - Ao lado do nome de seu agente, clique em `Model` selecione o `llama` do tipo `vision`
 
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/02.png)
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/03.png)
+
 - E então, selecione `ReAct` na seção Agent style.
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_5_v2.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/05.png)
 
 - Navegue página abaixo até a seção **Knowledge**. Clique em **Choose knowledge**.
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_6_v3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/06.png)
 
 - Clique em  **Upload files** e depois **Next**
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_7_v3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/07.png)
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/08.png)
 
 - Clique e arraste o arquivo de [Benefícios para funcionários](./Documentos/pacote_beneficios_colaboradores.pdf) e clique em **Next**:
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_8_v3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/09.png)
 
-- Copie a seguinte descrição na seção Descrição e salve sua escolha.
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/10.png)
+
+- Copie a seguinte descrição na seção Descrição e clique em `Next`
 
 <code>
 Este documento foi criado para ajudar você a responder dúvidas comuns sobre o pacote de benefícios oferecido pela empresa aos colaboradores. Use este documento como uma fonte de referência e conhecimento. Ele foi estruturado para facilitar o entendimento e garantir que todos os colaboradores tenham acesso às informações de forma clara e objetiva.
 </code> <br> <br>
+
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/11.png)
+
+Clique em `Next`
+
+
+Aguarde alguns instantes enquanto esse documento fica disponível para uso para o Agente que está sendo desenvolvido.
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/12.png)
+
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/13.png)
+
 
 - Role para baixo até a seção **Behavior**. Insira as instruções abaixo no campo **Instructions**:
 
@@ -110,9 +133,37 @@ Use a base de conhecimento **pacote_beneficios_colaboradores.pdf** para responde
 As respostas devem ser naturais, empáticas e baseadas no conteúdo do documento.
 ```
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_14_v3.png)
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/14.png)
 
-Agora, Teste seu agente no chat de pré visualização à direita, fazendo as seguintes perguntas e validando as respostas. 
+
+Navegue até a sessão `Channels`
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/15.png)
+
+Desabilite a opção `Show agents`
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/16.png)
+
+Agora, vamos testar o agente que constrúimos até aqui.
+
+Utilize o chat de pré visualização à direita.
+
+Utilize um exemplo como o da imagem abaixo:
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/17.png)
+
+Aguarde alguns segundos enquanto o agente busca a resposta na fonte de conhecimento que construímos.
+
+> Ao clicar em `Show reasoning` conseguimos ver como o agente chegou a resposta
+
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/18.png)
+
+> Ao clicar na seta V conseguimos visualizar qual fonte de conhecimento foi utilizada para responder a solicitação do usuário.
+
+![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/19.png)
+
+Você pode testar algumas das perguntas como o exemplo abaixo:
 
 ```
 1. Quais são os benefícios para animais?
@@ -124,16 +175,13 @@ Depois de validar as respostas, clique em **Deploy** no canto superior direito p
 
 ![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_15_v2.png)
 
-- Clique no menu de hambúrguer no canto superior esquerdo e depois clique em **Chat**:
+- Clique em `Deploy` novamente
 
-![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/hands-on-lab-assets/step_16_v2.png)
-
-> Certifique-se que o **RH Agent** está selecionado. Agora você pode testar seu agente. =)
+Aguarde alguns instantes até que o deploy de seu agente fique pronto.
 
 <b>Parabéns. Você criou o seu primeiro agente utilizando o Watsonx Orchestrate =) </b>
 
 Vamos para o próximo? 
-
 
 ### Agente Operações - RH
 
