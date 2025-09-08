@@ -85,7 +85,7 @@ Clique em **Create**:
 
 ![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/08.png)
 
-- Clique e arraste o arquivo de [Benefícios para funcionários](./Documentos/pacote_beneficios_colaboradores.pdf) e clique em **Next**:
+- Clique e arraste o arquivo de `pacote_beneficios_colaboradores.pdf`, esse arquivo está na pasta box compartilhada pelo seu instrutor com você. 
 
 ![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/09.png)
 
@@ -236,7 +236,7 @@ Clique em **Create**:
 
 ![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/30.png)
 
-- Arraste e solte ou clique para carregar o arquivo [rh_open_api.json](./Documentos/ask_hr_tool.json)
+- Arraste e solte ou clique para carregar o arquivo `tool_askhr.json`, esse arquivo está presente na pasta do Box que o seu instrutor compartilhou com você.
 
 ![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/31.png)
 
