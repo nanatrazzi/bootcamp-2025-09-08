@@ -3,7 +3,6 @@ Versão adaptada por: Nathalia Trazzi - Client Engineering Ecosystem (Build Engi
 
 Setembro/2025
 ```
-
 # watsonx Orchestrate Agentic AI Bootcamp 
 
 Neste <b>bootcamp</b>, vamos criar e implementar agentes de Inteligência Artificial (Agentic AI) com o <b>Watsonx Orchestrate</b> aplicados a casos reais de negócio.
@@ -32,9 +31,8 @@ Então, aproveite o conteúdo, explore bastante e, sempre que possível, experim
 
 [1. AskRH](Use_Cases/ask-hr/README.md)<br>
 
-
-<h3>⚠️ Este repositório foi desenvolvimento por Nathalia Trazzi (Client Engineering Ecosystem), é público apenas para fins de visualização.
-A clonagem, redistribuição ou modificação não autorizada deste código é expressamente proibida. </h3>
+<h4>⚠️ Este repositório foi desenvolvimento por Nathalia Trazzi (Client Engineering Ecosystem), e é público apenas para fins de visualização.
+A clonagem, redistribuição ou modificação não autorizada deste código é expressamente proibida. ⚠️ </h4>
 
 
 
