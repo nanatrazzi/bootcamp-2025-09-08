@@ -1,0 +1,1 @@
+![One Slider](../../Assets_for_BuildBooks/ask_hr_assets/one_slider_r1.png)

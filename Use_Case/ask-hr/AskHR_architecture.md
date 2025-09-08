@@ -1,0 +1,1 @@
+![Arquitetura](../../Assets_for_BuildBooks/ask_hr_assets/arch_diagm.png)
