@@ -495,7 +495,6 @@ Seu progresso mostra como o uso estratégico de agentes orquestradores pode traz
 - Para saber mais sobre como funcionam Open APIs, acesse este link: https://www.ibm.com/docs/pt-br/was-liberty/base?topic=liberty-generating-rest-api-documentation-openapi
 - Uso do Watsonx Orchestrate para desenvolvedores(ADK): https://developer.watson-orchestrate.ibm.com/
 
-
 ### Documentações adicionais:
 - https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base
 - https://medium.com/@nathalia.trazzi/getting-started-with-watsonx-orchestrate-23cbd433957e
