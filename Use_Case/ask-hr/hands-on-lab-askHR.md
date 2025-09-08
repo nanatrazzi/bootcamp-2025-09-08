@@ -331,9 +331,9 @@ Usar agentes orquestradores é melhor do que atribuir várias tarefas a um únic
 
 <b>Novamente, vamos seguir alguns passos já conhecidos:</b>
 
-Retorne para a página de agentes, navegando através do topo da tela (onde fica localizado o botáo Deploy) mas ao lado esquerdo da tela
+Agora, é necessário retornar para a página de gerenciamento de agentes.
 
-` Agent chat \ Manage agents`
+Acesse a barra superior da interface do Watsonx Orchestrate, em ` Agent chat \ Manage agents`
 
 Clique exatamente em `Manage agents`
 
