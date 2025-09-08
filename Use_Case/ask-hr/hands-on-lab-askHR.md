@@ -94,10 +94,7 @@ Clique em **Create**:
 
 - Copie a seguinte descrição na seção Descrição e clique em `Next`
 
-<code>
-Este documento foi criado para ajudar você a responder dúvidas comuns sobre o pacote de benefícios oferecido pela empresa aos colaboradores. Use este documento como uma fonte de referência e conhecimento. Ele foi estruturado para facilitar o entendimento e garantir que todos os colaboradores tenham acesso às informações de forma clara e objetiva.
-</code> <br> <br>
-
+<code> Este documento foi criado para ajudar você a responder dúvidas comuns sobre o pacote de benefícios oferecido pela empresa aos colaboradores. Use este documento como uma fonte de referência e conhecimento. Ele foi estruturado para facilitar o entendimento e garantir que todos os colaboradores tenham acesso às informações de forma clara e objetiva. </code> 
 
 ![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/11.png)
 
