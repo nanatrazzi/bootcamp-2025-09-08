@@ -13,6 +13,8 @@
     - [Agente Operações - RH](#agente-operações---rh)
     - [Agente orquestrador - RH](#agente-orquestrador---rh)
       - [Teste e faça o Deploydo Agente Orquestrador](#teste-e-faça-o-deploydo-agente-orquestrador)
+  - [Referências:](#referências)
+    - [Documentações adicionais:](#documentações-adicionais)
 
 
 ## Descrição do caso de uso
@@ -379,3 +381,16 @@ Faça outra pergunta, seguindo os exemplos a seguir:
 - Por favor consulte quantos dias de férias eu tenho
 - Poderia me dizer mais sobre meus benefícios?
 ```
+
+
+## Referências:
+
+- Para saber mais sobre como funcionam Open APIs, acesse este link: https://www.ibm.com/docs/pt-br/was-liberty/base?topic=liberty-generating-rest-api-documentation-openapi
+- Uso do Watsonx Orchestrate para desenvolvedores(ADK): https://developer.watson-orchestrate.ibm.com/
+
+
+### Documentações adicionais:
+- https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base
+- https://medium.com/@nathalia.trazzi/getting-started-with-watsonx-orchestrate-23cbd433957e
+- Diferenças de Agentes e Assistentes: https://medium.com/@nathalia.trazzi/getting-started-with-watsonx-orchestrate-23cbd433957e
+  
