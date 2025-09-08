@@ -476,7 +476,7 @@ Faça outra pergunta, seguindo a imagem abaixo:
 
 ![wxo labs - hands on](../../Assets_for_BuildBooks/ask_hr_assets/images/64.png)
 
-<b>Observe que dessa vez o agente não solicitou nenhum id pois o seu id já estava salvo em memória.
+<b>Observe que dessa vez o agente não solicitou nenhum id pois o seu id já estava salvo em memória.</b>
 
 Você pode utilizar outros exemplos para se comunicar com seu agente como os exemplos a seguir:
 
