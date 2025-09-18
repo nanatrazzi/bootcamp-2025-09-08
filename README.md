@@ -32,7 +32,7 @@ Então, aproveite o conteúdo, explore bastante e, sempre que possível, experim
 [1. AskRH](./Use_Case/ask-hr/README.md)<br>
 
 <h4>⚠️ Este repositório foi desenvolvimento por Nathalia Trazzi (Client Engineering Ecosystem), e é público apenas para fins de visualização.
-A clonagem, redistribuição ou modificação não autorizada deste código é expressamente proibida. ⚠️ </h4>
+A clonagem, redistribuição ou modificação não autorizada deste repositório é expressamente proibida. ⚠️ </h4>
 
 
 
